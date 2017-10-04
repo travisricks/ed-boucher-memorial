@@ -3898,6 +3898,20 @@
 				width: 100%;
 			}
 
+			@media only screen and (max-width: 736px) {
+				#banner .image img {
+					height: 110%;
+					-moz-object-fit: cover;
+					-webkit-object-fit: cover;
+					-ms-object-fit: cover;
+					object-fit: cover;
+					-moz-object-position: top;
+					-webkit-object-position: top;
+					-ms-object-position: top;
+					object-position: top;
+				}
+			}
+
 		@media screen and (orientation: portrait) {
 
 			#banner {
